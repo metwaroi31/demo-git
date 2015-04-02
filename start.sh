@@ -13,3 +13,12 @@ git commit -am "Add the second number"
 git checkout merge-conflict
 echo "2 + ? = 5" > equation.txt
 git commit -am "Add the first number"
+echo "Hello wordl" > file.txt
+git add file.txt
+git commit -m "Add me"
+git commit -m "Add Hello wordl"
+echo "Hello world is an excellent program." >> file.txt
+git commit -am "Further work on Hello world"
+git commit -m "Add Hello wordl"
+echo "Hello world is an excellent program." >> file.txt
+git commit -am "Further work on Hello world"
